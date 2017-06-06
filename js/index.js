@@ -11,16 +11,15 @@ window.onload = function (){
     req.send(null)
     req.onreadystatechange = function (){
       if ( (req.readyState == 4) && (req.status == 200) ){
-        let forecast = JSON.parse(req.responseText);
+        let data = JSON.parse(req.responseText);
+        let forecast = data.currently;
         let skycon = new Skycons({'color': '#fff'});
-        skycon.add(document.getElementById('weather'), forecast.currently.icon);
+        skycon.add(document.getElementById('weather-icon'), forecast.icon);
         skycon.play();
+        let currentWeather = document.getElementById('current-weather');
+        currentWeather.innerHTML = forecast.summary + ' and ' + forecast.temperature + ' &#8457; at Jing\'s house.'
       }
     }
   }
-
   getWeather();
-
-
-
 }
