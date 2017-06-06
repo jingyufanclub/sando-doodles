@@ -3,7 +3,7 @@ window.onload = function (){
   const apiKey = '5dd2fdd2e6ffb91a72a32b4bdf6538e1';
   const lat = 40.65805;
   const long = -73.9608155;
-  const url = `http://localhost:8080/forecast/${apiKey}/${lat},${long}`
+  const url = `https://api.darksky.net/forecast/${apiKey}/${lat},${long}`
 
   function getWeather(){
     let req = new XMLHttpRequest();
