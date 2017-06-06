@@ -15,10 +15,8 @@ body  {
   padding: 0;
 }
 
-canvas {
-  float: left
-}
-
-#weather-icon {
+#my-weather {
+  display: block;
+  width: 15vw;
   margin: 4vw;
 }
