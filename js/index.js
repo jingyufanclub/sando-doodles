@@ -7,7 +7,7 @@ window.onload = function (){
 
   function getWeather(){
     let req = new XMLHttpRequest();
-    req.open("GET", `http://localhost:8080/forecast/${apiKey}/${lat},${long}`)
+    req.open('GET', url)
     req.send(null)
     req.onreadystatechange = function (){
       if ( (req.readyState == 4) && (req.status == 200) ){
