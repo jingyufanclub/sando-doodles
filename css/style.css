@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -8,9 +10,23 @@ html {
 
 body  {
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  color: #fff;
-  font-family: Monaco, Consolas, monospace;
+  color: #dda0dd;
+  font-family: 'Luckiest Guy', 'Comic Sans MS', 'Arial Black', cursive;
   font-size: 1em;
-  margin: 0;
-  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  margin: auto;
+}
+
+header {
+
+  margin: 40vw auto;
+  width: 90%;
+
+  font-size: 4.2em;
+  letter-spacing: 1vw;
+  text-align: center;
 }
