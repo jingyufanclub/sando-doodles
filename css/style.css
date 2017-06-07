@@ -24,6 +24,7 @@ main {
   position: relative;
   width: 90%;
   margin: 1vw auto;
+  visibility: hidden;
 }
 
 #sando {
