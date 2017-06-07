@@ -9,8 +9,8 @@ window.onload = function (){
   const y = window.innerHeight;
 
   tl.set(main, {autoAlpha:1})
-    .from(sando, 2, { opacity:0, scale: 0, rotation: 360, ease: SlowMo.ease.config(0.8, 0.5, false) })
-    .to(sando, 0.6, { scale: 0, rotation: 360 }, '+=0.4')
+    .from(sando, 2, { opacity:0, scale: 0, rotation: 360, ease: SlowMo.ease.config(0.8, 0.6, false) })
+    .to(sando, 0.6, { scale: 0, rotation: 360 }, '+=0.5')
     .from(title, 0.7, { ease: Bounce.easeOut, top: -y })
     .fromTo(pickle, 3, { right: -x }, { right: x, repeat: -1, yoyo: true }, '+=0.5');
 }
