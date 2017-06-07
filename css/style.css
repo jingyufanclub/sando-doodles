@@ -12,20 +12,41 @@ body  {
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   color: #dda0dd;
   font-family: 'Luckiest Guy', 'Comic Sans MS', 'Arial Black', cursive;
-  font-size: 1em;
   overflow: hidden;
 }
 
-main {
-  margin: auto;
+a:link, a:hover, a:visited {
+  color: #dda0dd;
+  text-decoration: none;
 }
 
-header {
-
-  margin: 40vh auto;
+main {
+  position: relative;
   width: 90%;
+  margin: 1vw auto;
+}
 
-  font-size: 7vw;
+#sando {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 400px;
+}
+
+#title {
+  position: absolute;
+  top: 40vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 13vw;
   letter-spacing: 1vw;
   text-align: center;
+}
+
+#pickle {
+  position: absolute;
+  top: 64vh;
 }
