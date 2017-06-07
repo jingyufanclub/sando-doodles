@@ -17,6 +17,7 @@ body  {
 
 a:link, a:hover, a:visited {
   color: #dda0dd;
+  text-decoration: underline wavy;
 }
 
 main {
@@ -32,7 +33,7 @@ main {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 400px;
+  width: 50vh;
 }
 
 #title {
@@ -48,5 +49,6 @@ main {
 
 #pickle {
   position: absolute;
-  top: 64vh;
+  top: 63vh;
+  height: 20vh;
 }
